@@ -9,6 +9,22 @@ Welcome to my journey through the SoC Tapeout Program! This repo documents my we
 - [Tools Used](#tools-used)
 - [Weekly Progress](#weekly-progress)
   - [Week 0 — Setup & Tools](#week-0--setup--tools)
+  - **Yosys**
+  - $ git clone https://github.com/YosysHQ/yosys.git
+  - $ cd yosys
+  - $ sudo apt install make (If make is not installed please install it)
+  - $ sudo apt-get install build-essential clang bison flex \libreadline-dev gawk tcl-dev libffi-dev git \graphviz xdot pkg-config python3 libboost-system-dev \libboost-python-dev libboost-filesystem-dev zlib1g-dev
+  - $ make
+  - $ sudo make install
+  - <img src=images/yosys.png>  
+  - **Iverilog**
+  - $ sudo apt-get install iverilog
+  - $ iverilog
+  - <img src=images/iverilog.png>
+  -**GTKWave**
+  -$ sudo apt update
+  -$ sudo apt install gtkwave
+  - <img src=images/gtkwave.png>
   - [Week 1 — RTL Design](#week-1--rtl-design)
   - [Week 2 — Simulation & Debugging](#week-2--simulation--debugging)
   - [Week 3 — Synthesis](#week-3--synthesis)
