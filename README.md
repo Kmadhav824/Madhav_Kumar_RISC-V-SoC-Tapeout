@@ -8,7 +8,9 @@ Welcome to my journey through the SoC Tapeout Program! This repo documents my we
 - [Overview](#overview)
 - [Tools Used](#tools-used)
 - [Weekly Progress](#weekly-progress)
-  - [Week 0 — Setup & Tools](#week-0--setup--tools)
+  - ## [Week 0 — Setup & Tools](#week-0--setup--tools)
+    <br>  
+    
   - **Yosys**
   - $ git clone https://github.com/YosysHQ/yosys.git
   - $ cd yosys
@@ -17,13 +19,17 @@ Welcome to my journey through the SoC Tapeout Program! This repo documents my we
   - $ make
   - $ sudo make install
   - <img src=images/yosys.png>  
+  <br>  
+  
   - **Iverilog**
   - $ sudo apt-get install iverilog
   - $ iverilog
   - <img src=images/iverilog.png>
-  -**GTKWave**
-  -$ sudo apt update
-  -$ sudo apt install gtkwave
+  <br>  
+  
+  - **GTKWave**
+  - $ sudo apt update
+  - $ sudo apt install gtkwave
   - <img src=images/gtkwave.png>
   - [Week 1 — RTL Design](#week-1--rtl-design)
   - [Week 2 — Simulation & Debugging](#week-2--simulation--debugging)
